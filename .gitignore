@@ -1,0 +1,46 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+
+# Byte-compiled Python files
+__pycache__/
+
+# Python virtual environment
+venv/
+
+# Editor-specific files and directories
+.vscode/
+.idea/
+
+# Log filesq
+*.log
+
+# Environment-specific files
+.env
+
+# Dependency directories
+node_modules/
+# all data
+/data/processed/*
+/data/raw/*
+
+/outputs/.DS_Store
+
+
+
+/src/models/model.pkl
+
+/src/models/wrist_data.parquet
+
+/mlflow-env/*
+
+/mlruns/*
+
+
+/src/models/EDA/.DS_Store
+
+/mlruns/*
+
+.pytest_cache/*
